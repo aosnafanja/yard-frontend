@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'FiraSans';
+  src: url('../font/FiraSans-Regular.ttf');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'FiraSans';
+  src: url('../font/FiraSans-Bold.ttf');
+  font-style: normal;
+  font-weight: 700;
+}
+
+
+body {
+  background-color: #eaebf0;
+  font-family: 'FiraSans', sans-serif;
+  font-weight: normal;
+}
+
+.nav-header {
+  background-color: #fff;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-header-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-header-logo {
+  width: 179px;
+  height: 74px;
+
+  display: flex;
+}
+
+.nav-header-links {
+  font-family: 'FiraSans';
+  font-weight: normal;
+  display: flex;
+  align-items: flex-end;
+}
+
+.nav-header-link {
+  padding-left: 2rem;
+  line-height: 1rem;
+}
+
+.nav-header-link:link,
+.nav-header-link:visited {
+  color: #3e4247;
+  text-decoration: none;
+}
+
+
+.header-big-logo {
+  background-color: #161616;
+  height: 291px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-big-logo-img {
+  width: 419px;
+  height: 131px;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  margin: 64px 0;
+}
+
+.portfolio-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio-title {
+  font-family: 'FiraSans', sans-serif;
+  font-weight: bold;
+  color: #3e4247;
+  margin: 0;
+}
+
+.porfolio-synopsys {
+  font-family: 'FiraSans', sans-serif;
+  font-weight: normal;
+  line-height: 1.5rem;
+  text-align: center;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.portfolio-contact-team {
+  width: 193px;
+  height: 40px;
+  background-color: #000;
+  color: #fff;
+  border: 0;
+  border-radius: 2px;
+}
+
+@media only screen and (min-width:960px) {
+  .nav-header-content,
+  .header-big-logo-content,
+  .portfolio-content {
+    max-width: 75rem;
+  }
+}
