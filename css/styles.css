@@ -113,6 +113,7 @@ body {
   color: #fff;
   border: 0;
   border-radius: 2px;
+  cursor: pointer;
 }
 
 .developments-object {
@@ -124,7 +125,6 @@ body {
   background-color: #fff;
   height: 350px;
   display: flex;
-  position: relative;
 }
 
 .developments-object-content:hover {
@@ -139,10 +139,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 24px 0 0 32px;
-}
-
-.developments-object-img {
-  z-index: 1;
+  border-bottom: 3px solid #646971;
 }
 
 .developments-object-adress {
@@ -164,14 +161,6 @@ body {
   color: #3e4247;
   padding-right: 86px;
   line-height: 1.5rem;
-}
-
-.developments-object-decor-line {
-  height: 3px;
-  width: 100%;
-  background-color: #646971;
-  position: absolute;
-  top: 347px;
 }
 
 @media only screen and (min-width:960px) {
