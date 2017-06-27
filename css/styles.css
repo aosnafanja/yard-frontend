@@ -12,6 +12,13 @@
   font-weight: 700;
 }
 
+@font-face {
+  font-family: 'Monaco';
+  src: url('../font/Monaco.ttf');
+  font-style: normal;
+  font-weight: 400;
+}
+
 
 body {
   background-color: #eaebf0;
@@ -108,10 +115,70 @@ body {
   border-radius: 2px;
 }
 
+.developments-object {
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+
+.developments-object-content {
+  background-color: #fff;
+  height: 350px;
+  display: flex;
+  position: relative;
+}
+
+.developments-object-content:hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.developments-object-content:link {
+  text-decoration: none;
+}
+
+.developments-object-synopsys {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 0 0 32px;
+}
+
+.developments-object-img {
+  z-index: 1;
+}
+
+.developments-object-adress {
+  text-transform: uppercase;
+  font-family: 'Monaco', sans-serif;
+  font-weight: normal;
+  color: #646971;
+}
+
+.developments-object-title {
+  font-family: 'FiraSans',sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #000;
+  margin: 1.5rem 0 0.5rem 0;
+}
+
+.developments-object-discover {
+  color: #3e4247;
+  padding-right: 86px;
+  line-height: 1.5rem;
+}
+
+.developments-object-decor-line {
+  height: 3px;
+  width: 100%;
+  background-color: #646971;
+  position: absolute;
+  top: 347px;
+}
+
 @media only screen and (min-width:960px) {
   .nav-header-content,
   .header-big-logo-content,
-  .portfolio-content {
+  .portfolio-content,
+  .developments-object {
     max-width: 75rem;
   }
 }
