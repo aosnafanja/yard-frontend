@@ -178,7 +178,7 @@ body {
   padding-top: 2rem;
   padding-bottom: 2rem;
   color: #FFF;
-  font: normal 14px "FiraSans", sans-serif;
+  font: normal 0.875rem "FiraSans", sans-serif;
   margin-top: 96px;
 }
 
@@ -192,22 +192,22 @@ body {
 
 .footer-company-credits-title {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
   color: #646971;
 }
 
 .footer-company-credits-data {
-  margin-top: 0.5rem;
+  margin-top: 0.7rem;
   margin-bottom: 0.5rem;
 }
 
 .footer-company-credits-tel {
-  margin-top: 1rem;
+  margin-top: 1.2rem;
 }
 
 .footer-nav-link {
   display: block;
-  margin-top: 0.5rem;
+  line-height: 1.4rem;
   margin-bottom: 0.5rem;
 }
 
@@ -237,10 +237,19 @@ body {
 
 .footer-nav-section {
   border-top: 2px solid #3e4247;
+  padding-left: 0;
+  margin-right: 16px;
+  line-height: 0.869rem;
 }
 
 .footer-nav-section-title {
   color: #646971;
+  margin-top: 0.875rem;
+}
+
+.test {
+  padding-left: 0.650rem;
+  padding-right: 0.650rem;
 }
 
 .footer-copyright {
