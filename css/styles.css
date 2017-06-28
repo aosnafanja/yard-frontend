@@ -24,6 +24,7 @@ body {
   background-color: #eaebf0;
   font-family: "FiraSans", sans-serif;
   font-weight: normal;
+  background-image: url("../img/bg.png");
 }
 
 .nav-header {
