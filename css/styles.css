@@ -28,7 +28,6 @@ body {
 
 .nav-header {
   background-color: #fff;
-  height: 64px;
   display: flex;
   justify-content: center;
 }
@@ -41,9 +40,8 @@ body {
 }
 
 .nav-header-logo {
-  width: 179px;
-  height: 74px;
-
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
   display: flex;
 }
 
@@ -68,7 +66,8 @@ body {
 
 .header-big-logo {
   background-color: #161616;
-  height: 291px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -123,7 +122,6 @@ body {
 
 .developments-object-content {
   background-color: #fff;
-  height: 350px;
   display: flex;
 }
 
@@ -133,6 +131,12 @@ body {
 
 .developments-object-content:link {
   text-decoration: none;
+}
+
+.developments-object-img {
+  height: 100%;
+  width: 100%;
+  max-width: 491px;
 }
 
 .developments-object-synopsys {
