@@ -214,14 +214,15 @@ body {
 
 .footer-nav-link {
   display: block;
-  line-height: 1.4rem;
-  padding-top: 2px;
+  line-height: 0.869rem;
+  padding-top: 8px;
+  padding-left: 0;
   margin-bottom: 0.5rem;
 }
 
 .footer-nav-link-all-objects {
   display: block;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .footer-nav-link-all-objects::after {
@@ -247,18 +248,17 @@ body {
   border-top: 2px solid #3e4247;
   padding-left: 0;
   padding-right: 1rem;
-  padding-top: 0.5rem
-  line-height: 0.869rem;
 }
 
-.test {
-  padding-left: 0.650rem;
-  padding-right: 0.650rem;
+.footer-paddinds-correction {
+  padding-left: 0.630rem;
+  padding-right: 0.990rem;
 }
 
 .footer-copyright {
   margin-top: 5.9rem;
   font-size: 11px;
+  padding-top: 8px;
   color: #a9afb6;
 }
 
